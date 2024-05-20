@@ -1,0 +1,38 @@
+# .env
+.env
+
+.vscode
+
+# c
+c/*
+c/*.o
+c/**/*
+!c/**/
+!c/**/*.c
+!c/**/lib/
+!c/**/lib/*.h
+!c/**/Makefile
+!c/**/Makefile.*
+
+#vi .gitignore
+
+## scala
+scala/**/project
+scala/**/target
+
+## maven
+maven/**/target
+
+##nodejs
+worldcup/**/node_modules
+worldcup/**/package-lock.json
+node/conf/**
+
+#aws
+.c9
+**/uploadedFiles
+
+#aws - s3
+worldcup/**/node_modules
+worldcup/**/package-lock.json
+worldcup/**/package.json
